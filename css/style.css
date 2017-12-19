@@ -186,7 +186,7 @@ i, span {
     height: 225px;
     display: block;
     background-color: #fff;
-    
+
 }
 #sidebar .admin-box img {
     border-radius: 50%;
@@ -233,6 +233,7 @@ i, span {
 }
 #sidebar ul li a i {
     margin-right: 10px;
+
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
