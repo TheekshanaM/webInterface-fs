@@ -100,10 +100,12 @@ i, span {
 }
 
 #sidebar.active .sidebar-header strong {
-    padding-bottom: 6px;
-    padding-top: 6px;
+    font-size: 1.4em;
+    padding-bottom: 12px;
+    padding-top: 13px;
+    box-shadow: -8px 1px 38px #454849;
     padding-left: 0px;
-    margin-top: 8px;
+    margin-top: 5px;
     margin-left: -40px;
     background: linear-gradient(to right, #3ca0d1, #3076d1);
     display: block;
@@ -114,22 +116,18 @@ i, span {
 }
 
 #sidebar.active ul li a {
-    padding: 20px 10px;
+    padding: 9px 10px 14px 10px;
     text-align: center;
     font-size: 0.85em;
 }
 
 #sidebar.active ul li a i {
     margin-right:  0;
-    display: none;
-    font-size: 1.8em;
-    margin-bottom: 5px;
-}
-
-#sidebar.active ul li div a i{
-
     display: block;
+    font-size: 1.4em;
+    margin-bottom: 1px;
 }
+
 
 #sidebar.active ul ul a {
     padding: 10px !important;
@@ -145,6 +143,7 @@ i, span {
 }
 
 #sidebar .sidebar-header {
+
     padding-bottom: 1px;
     padding-top: 1px;
     margin-top: -6px;
@@ -159,8 +158,68 @@ i, span {
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
+    padding: 0px 0px 20px 0px;
     border-bottom: 1px solid #47748b;
+}
+#sidebar .admin-title {
+    position: relative;
+    width: 100%;
+    height: 45px;
+
+    display: block;
+    background: linear-gradient(to bottom right, #0c68f2, #25b1ed);
+}
+#sidebar .admin-title h3{
+    position: relative;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+#sidebar .admin-box {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    box-shadow: 4px 4px 18px #454849;
+    height: 225px;
+    display: block;
+    background-color: #fff;
+    
+}
+#sidebar .admin-box img {
+    border-radius: 50%;
+    position: relative;
+    width:90px;
+    height: 90px;
+    margin-left: 30%;
+    margin-top: 15px; 
+}
+#sidebar .admin-box h4 {
+    position: relative;
+    text-align: center;
+    color: #558fed;
+    margin-bottom: -11px;
+    margin-top: 15px;
+}
+
+#sidebar .admin-box a {
+    position: relative;
+    display: inline-block;
+    font-size: 1.4em;
+    color: #278fea;
+
+    margin-left: 28px;
+    margin-right: -28px;
+    margin-top: 20px;
+}
+
+#sidebar.active .admin-title {
+    display: none;
+}
+#sidebar.active .admin-box {
+    display: none;
 }
 
 #sidebar ul li a {
